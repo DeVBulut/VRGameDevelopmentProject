@@ -1,0 +1,54 @@
+{
+    "name": "XRControls",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "69dd6c4d-6360-4c78-9d1f-a824d5b6537d",
+            "actions": [
+                {
+                    "name": "spawnBallAction",
+                    "type": "Button",
+                    "id": "a7e0d1a1-d558-4154-910a-18377c58625a",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "spawnPaddleAction",
+                    "type": "Button",
+                    "id": "1083acfa-069b-493f-8663-53ba264b0d72",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "71019255-33bc-4fac-aa65-964df4fccc65",
+                    "path": "<XRController>{LeftHand}/joystickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "spawnBallAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "22a266b5-ba26-46af-840d-7bff8e5f9899",
+                    "path": "<XRController>{RightHand}/joystickClicked",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "spawnPaddleAction",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
