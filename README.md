@@ -16,7 +16,7 @@ This was an experimental prototype intended to explore building a sports-based V
 
 ## 🖼️ Screenshots
 
-(![Screenshot 2025-05-06 215515](https://github.com/user-attachments/assets/5d153698-b217-4c03-b033-5c39c5b0a0e2))  
+![Screenshot 2025-05-06 215515](https://github.com/user-attachments/assets/5d153698-b217-4c03-b033-5c39c5b0a0e2)
 *Basic player setup using Meta Quest controllers.*
 
 ---
